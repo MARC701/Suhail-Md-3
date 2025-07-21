@@ -1,9 +1,9 @@
 {
   "name": "suhail-whatsapp-bot@1.0.1",
-  "description": "I am Suhail-X Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
- "logo":"https://telegra.ph/file/9dcef2b49909742db8dbd.jpg",
+  "description": "I am 𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://api.whatsapp.com/send?phone=+923111977378&text=Hi_Arslan_Chaudary!Need_Help",
+ "logo":"https://i.imgur.com/m0NTPFI.jpeg",
  
-  "old__logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
+  "old__logo": "https://github.com/MARC701/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/suhail/",
   "app_url": "/qr/",
@@ -15,14 +15,14 @@
   "FLUSH": {
     "description": " Make it 'true' if bot connected but not responed (After deployement!)",
     "required" :false,    
-    "value": "false"
+    "value": "true"
   },
 
 
   "BOT_NAME": {
     "description": " NAME FOR BOT",
     "required" :false,    
-    "value": "Suhail-Md"
+    "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃"
   }, 
   "MSGS_IN_LOG": {
     "description": "Fill the value -true- if you want to see Messages in logs.",
@@ -39,13 +39,13 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Suhail:Shy<3",
+      "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
       "required" :true
     },   
      
     "CAN_WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "true",
+      "value": "false",
       "required" :false
     },
      
@@ -79,7 +79,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923184474176"
+      "value": "923111977378"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
@@ -102,16 +102,16 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public/private, if private then only bot number can use it. If public then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "ᴹᴬᶠᴵᴬ⁻ᵀᵉᶜʰ",
       "required": false 
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "",
+      "value": "ᴬʳˢˡᵃⁿ ᶜʰᵃᵘᵈᵃʳʸ",
       "required": false 
     }
   }, 
