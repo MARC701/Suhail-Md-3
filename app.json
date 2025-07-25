@@ -2,7 +2,6 @@
   "name": "suhail-whatsapp-bot@1.0.1",
   "description": "I am 𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://api.whatsapp.com/send?phone=+923111977378&text=Hi_Arslan_Chaudary!Need_Help",
   "logo": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg?updatedAt=1753467774859",
-  "old__logo": "https://github.com/MARC701/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
   "keywords": [
     "whatsappbot",
     "suhailMd",
@@ -17,28 +16,6 @@
   "success_url": "/suhail/",
   "app_url": "/qr/",
   "stack": "container",
-  "--env_ignored_for_new_update": {
-    "FLUSH": {
-      "description": "Make it 'true' if bot connected but not responded (After deployment!)",
-      "required": false,
-      "value": "true"
-    },
-    "BOT_NAME": {
-      "description": "NAME FOR BOT",
-      "required": false,
-      "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃"
-    },
-    "MSGS_IN_LOG": {
-      "description": "Fill the value -true- if you want to see Messages in logs.",
-      "required": false,
-      "value": "false"
-    },
-    "WARN_COUNT": {
-      "description": "Warn count for users to kick/block when warn limit exceed!",
-      "required": false,
-      "value": "3"
-    }
-  },
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
@@ -120,14 +97,5 @@
     {
       "plan": "heroku-postgresql:essential-1"
     }
-  ],
-  "--buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
-    },
-    {
-      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
-    }
   ]
 }
-
