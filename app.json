@@ -1,123 +1,133 @@
 {
   "name": "suhail-whatsapp-bot@1.0.1",
   "description": "I am 𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://api.whatsapp.com/send?phone=+923111977378&text=Hi_Arslan_Chaudary!Need_Help",
- "logo":"https://i.imgur.com/m0NTPFI.jpeg",
- 
+  "logo": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg?updatedAt=1753467774859",
   "old__logo": "https://github.com/MARC701/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "keywords": [
+    "whatsappbot",
+    "suhailMd",
+    "suhail Md bot",
+    "Suhail-Md",
+    "SuhailMdWhatsappBot",
+    "SuhailWaBot",
+    "SuhailMD",
+    "Suhail Md Whatsapp Bot",
+    "multi device"
+  ],
   "success_url": "/suhail/",
   "app_url": "/qr/",
-  "stack":"container",
-
-"--env_ignored_for_new_update":{
-
-
-  "FLUSH": {
-    "description": " Make it 'true' if bot connected but not responed (After deployement!)",
-    "required" :false,    
-    "value": "true"
+  "stack": "container",
+  "--env_ignored_for_new_update": {
+    "FLUSH": {
+      "description": "Make it 'true' if bot connected but not responded (After deployment!)",
+      "required": false,
+      "value": "true"
+    },
+    "BOT_NAME": {
+      "description": "NAME FOR BOT",
+      "required": false,
+      "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃"
+    },
+    "MSGS_IN_LOG": {
+      "description": "Fill the value -true- if you want to see Messages in logs.",
+      "required": false,
+      "value": "false"
+    },
+    "WARN_COUNT": {
+      "description": "Warn count for users to kick/block when warn limit exceed!",
+      "required": false,
+      "value": "3"
+    }
   },
-
-
-  "BOT_NAME": {
-    "description": " NAME FOR BOT",
-    "required" :false,    
-    "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃"
-  }, 
-  "MSGS_IN_LOG": {
-    "description": "Fill the value -true- if you want to see Messages in logs.",
-    "required" :false,
-    "value": "false"
-  },
-  "WARN_COUNT": {
-    "description": " Warn count for users to kick/block when warn limit exceed!",
-    "required" :false,    
-    "value": "3"
-  }
-},
-
   "env": {
     "OWNER_NAME": {
-      "description": "Name for Bot Owner",    
+      "description": "Name for Bot Owner",
       "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
-      "required" :true
-    },   
-     
+      "required": true
+    },
     "CAN_WELCOME": {
-      "description": "put 'false' or 'true' to enable & disable WELCOME ",
+      "description": "put 'false' or 'true' to enable & disable WELCOME",
       "value": "false",
-      "required" :false
+      "required": false
     },
-     
     "CAN_GOODBYE": {
-      "description": "put 'false' or 'true' to enable & disable GOODBYE ",
+      "description": "put 'false' or 'true' to enable & disable GOODBYE",
       "value": "false",
-      "required" :false
+      "required": false
     },
-
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
-      "required" :false,    
+      "required": false,
       "value": "Asia/Karachi"
-    },  
-
-
+    },
     "HEROKU_API_KEY": {
       "description": "Put Your Heroku Api Key Here",
       "value": "",
-      "required" :true 
-    },   
+      "required": true
+    },
     "HEROKU_APP_NAME": {
       "description": "Put Your Heroku App Name Here",
       "value": "",
-    "required" :true
-    }, 
-
+      "required": true
+    },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-      "value": "."
+      "value": ".",
+      "required": false
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923111977378"
+      "value": "923111977378",
+      "required": true
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "",
+      "required": true
     },
     "OPENAI_API_KEY": {
-      "description": "put your OPENAI api key here.Get it from beta.openai.com ",
+      "description": "put your OPENAI api key here.Get it from beta.openai.com",
       "value": "",
-      "required" :false
-    }, 
+      "required": false
+    },
     "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
+      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4",
       "value": "",
-      "required" :false
-    }, 
+      "required": false
+    },
     "REMOVE_BG_KEY": {
-      "description": "put your REMOVE BG KEY here.Get it from removeBg.com ",
+      "description": "put your REMOVE BG KEY here.Get it from removeBg.com",
       "value": "",
-      "required" :false
+      "required": false
     },
     "MODE": {
       "description": "Worktype of your bot. Use public/private, if private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "private",
+      "required": false
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
       "value": "ᴹᴬᶠᴵᴬ⁻ᵀᵉᶜʰ",
-      "required": false 
+      "required": false
     },
-    "PACK_AUTHER": {
+    "PACK_AUTHOR": {
       "description": "Put Sticker Author_Name.",
       "value": "ᴬʳˢˡᵃⁿ ᶜʰᵃᵘᵈᵃʳʸ",
-      "required": false 
+      "required": false
     }
-  }, 
-  "addons": [{ "plan": "heroku-postgresql:essential-1" }],
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-1"
+    }
+  ],
   "--buildpacks": [
-    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
-    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    },
+    {
+      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
+    }
   ]
 }
+
